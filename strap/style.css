@@ -66,4 +66,11 @@ h5{
 .spacer{
     height: 2vh;
 }
-h1
+.zoom-on-hover{
+    scale: 96%;
+    transition-duration: 0.4s;    
+}
+.zoom-on-hover:hover{
+    scale: 102%;
+    z-index: 100;
+}

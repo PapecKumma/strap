@@ -13,24 +13,26 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet"> 
 </head>
 <body class="bg-light" style="font-family: 'Open Sans', sans-serif;" >
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a href="#" class="navbar-brand text-primary"> <i class="bi bi-bar-chart-fill"></i> Navigacja</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="bi bi-window-dock color-white" style="color: white;"></i>
-              </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item" style="scale: 70%;">
-                        <a href="Page2.html" class="nav-link btn btn-primary color-white">Strona 2</a>
-                    </li>
-                    <li class="nav-item" style="scale: 70%;">
-                        <a href="Page2.html" class="nav-link btn btn-primary color-white">Strona 3</a>
-                    </li>
-                </ul>
+
+<nav class="navbar bg-light" style="margin-left: 10px;">
+    <button class="btn btn-dark m-1" data-bs-toggle="offcanvas" data-bs-target="#ofcan">
+        <i class="bi bi-list"></i>
+    </button>
+    <div class="translate-middle position-absolute start-50 top-50" style="margin-top: 3px;"><h2 class="header-3 "> <i class="bi bi-apple"></i>SiteName</h2>
+        
+    </div>
+</nav>
+
+<div class="offcanvas offcanvas-start p-4 m-2 rounded-4 outline" tabindex="-1" id="ofcan">
+    <button class="btn-close end-0 position-relative top-0" style="margin-right: 0px; margin-left: 90%;" data-bs-dismiss="offcanvas"></button>
+    <div class="offcanvas-body">
+        <div class="row">
+            <div class="col-12 rounded-3 p-2 bg-opacity-25 bg-secondary ">
+                <h5 class="p-2 gt1">Title</h5>
             </div>
         </div>
-    </nav>
+    </div>
+</div>
 
 
 

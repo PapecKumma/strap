@@ -14,8 +14,8 @@
 </head>
 <body class="bg-light" style="font-family: 'Open Sans', sans-serif;" >
 
-<nav class="navbar bg-light" style="margin-left: 10px;">
-    <button class="btn btn-dark m-1" data-bs-toggle="offcanvas" data-bs-target="#ofcan">
+<nav class="navbar bg-light position-fixed  z-3 bg-opacity-75 blured" style="width: 100%;">
+    <button class="btn btn-dark" style="margin: 5px; margin-left: 15px;" data-bs-toggle="offcanvas" data-bs-target="#ofcan">
         <i class="bi bi-list"></i>
     </button>
     <div class="translate-middle position-absolute start-50 top-50" style="margin-top: 3px;"><h2 class="header-3 "> <i class="bi bi-apple"></i>SiteName</h2>
@@ -23,13 +23,29 @@
     </div>
 </nav>
 
-<div class="offcanvas offcanvas-start p-4 m-2 rounded-4 outline" tabindex="-1" id="ofcan">
-    <button class="btn-close end-0 position-relative top-0" style="margin-right: 0px; margin-left: 90%;" data-bs-dismiss="offcanvas"></button>
-    <div class="offcanvas-body">
-        <div class="row">
-            <div class="col-12 rounded-3 p-2 bg-opacity-25 bg-secondary ">
-                <h5 class="p-2 gt1">Title</h5>
+<div class="offcanvas offcanvas-start rounded-4 outline m-2" tabindex="-1" id="ofcan">
+    <button class="btn-close end-0 position-relative top-0" style="margin-right: 0px; margin-left: 90%; margin-top: 2vh;" data-bs-dismiss="offcanvas"></button>
+    <div class="offcanvas-body-1 p-2" style="scale: 120%; margin-left: 13%;">
+        <div class="row" style="margin-left: auto;">
+            <div class="col-12 rounded-3 p-2">
+                <h5 class="p-2 gt1" style="margin-top: 25%;">Title</h5>
             </div>
+            <div class="row gap-1" style="margin-top: 25%; max-width: 90%;">
+                <a href="Page2.html" class="col-6 pad1 rounded-3 sidebar-buttons ratio-1x1 ratio " style="width: 49%; padding-bottom: 8%;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+            
+                <a href="Page2.html" class="col-6 pad2 rounded-3 sidebar-buttons ratio-1x1 ratio " style="width: 49%; padding-bottom: 8%;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+            
+                <a href="Page2.html" class="col-6 pad3 rounded-3 sidebar-buttons ratio-1x1 ratio " style="max-width: 49%; padding-bottom: 8%;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+            
+                <a href="Page2.html" class="col-6 pad4 rounded-3 sidebar-buttons ratio-1x1 ratio " style="max-width: 49%; padding-bottom: 8%;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+                
+                <a href="Page2.html" class="col-12 pad5 rounded-3 sidebar-buttons ratio-16x9 ratio" style="padding-bottom: 5%;">
+                <b class="dropdown-header text-center" style="margin-top: 50%; scale: 150%;">Link to page 2</b></a>
+            
+            
+            
+            
+            </div>   
         </div>
     </div>
 </div>
@@ -39,12 +55,13 @@
 
 
     <div class="col-lg-12 bg-black" style="height: 100vh;">
+        <div style="height: 5vh;"></div>
         <h1 class="rightf position-absolute translate-middle start-50 gt1 z-4" style="margin-top: 13vh; font-size: 9vw; white-space: nowrap; padding: 1vw;">Main Tittle</h1>
         <img src="https://www.apple.com/v/macbook-pro-13/o/images/overview/camera_hero_hardware__cfpmer0zbeeu_large.jpg"
         
         alt="" class="img-fluid position-relative translate-middle start-50 top-50 gt1" style="max-height: 60vh;">
             <div class="col-4 translate-middle top-50 start-50 text-white text-center position-absolute z-4 display-6" style="margin-top: 300px;">
-                <b style="white-space: nowrap;">See All beautyful things</b>
+                <b>See All beautyful things</b>
             </div>
         <div class="btn btn-primary position-absolute translate-middle top-100 start-50" style="margin-top: -80px;">Learn More</div>
 </div>
@@ -196,26 +213,26 @@
 
         </div>
         <div class="col-lg-7 col-xs-12">
-    <div class="container bg-light rounde p-4 outline">
+    <div class="container bg-light rounde p-1 outline">
         
         <form method="post" id="abc" action="#abc" class="m-5">
             <h3 class="gt1 h1">Sign up</h3>
             <div class="row p-2">
-            <div class="col-lg-6 col-xs-12">
+            <div class="col-lg-6 col-xs-12 m-1">
                 <label for="" class="form-label">Name</label>
                 <input type="text" name="name" placeholder="Name" class="form-control" data-bs-theme="dark">
             </div>
-            <div class="col-6 col-xs-12">
+            <div class="col-lg-6 col-xs-12 m-1">
                 <label for="" class="form-label">Surname</label>
                 <input type="text" name="surname" class="form-control" placeholder="Surname">
             </div>
             </div>
-            <div class="row p-2">
-                <div class="col-lg-7 col-xs-12">
+            <div class="row pt-0 p-1">
+                <div class="col-lg-7 col-xs-12 m-1">
                 <label for="" class="form-label">E-mail</label>
                 <input type="text" class="form-control">
             </div>
-            <div class="col-lg-5 col-xs-12">
+            <div class="col-lg-5 col-xs-12 m-1">
                 <label for="" class="form-label">Phone number</label>
                 <input type="text" class="form-control">
             </div>

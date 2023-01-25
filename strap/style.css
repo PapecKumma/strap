@@ -75,3 +75,36 @@ h5{
     scale: 102%;
     z-index: 100;
 }
+.sidebar-buttons{
+    color: black;
+    text-decoration: none;
+    transition-duration: 0.3;
+}
+.pad1{
+    background-image: url(Img/square.jpg);
+    background-size: contain;
+}
+.pad2{
+    background-image: url(Img/square.jpg);
+    background-size: contain;
+}
+.pad3{
+    background-image: url(Img/Desert-by-Mark-Eder.jpg);
+    background-size: contain;
+}
+.pad4{
+    background-image: url(Img/square.jpg);
+    background-size: contain;
+}
+.pad5{
+    background-image: url(Img/Palm-by-Jessica-F.jpg);
+        background-size: contain;
+        color: white;
+}
+.blured{
+    backdrop-filter: blur(8px);
+}
+.offcanvas-body-1 {
+    flex-grow: 1;
+    margin-left: 8%;
+}

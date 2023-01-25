@@ -21,6 +21,7 @@ font-family: 'Yellowtail', cursive;
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+    transition-duration: 0.3s;
 }
 .h1{
     font-weight: 900;

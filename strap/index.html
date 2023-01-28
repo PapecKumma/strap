@@ -5,16 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Elements</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="Img/Desert-by-Mark-Eder.jpg" type="image/x-icon">
 </head>
-<body class="bg-light" style="font-family: 'Open Sans', sans-serif;" >
-
-<nav class="navbar bg-light position-fixed  z-3 bg-opacity-75 blured" style="width: 100%;">
+<body data-bs-theme="dark" style="font-family: 'Open Sans', sans-serif;" >
+<nav class="navbar bg-body position-fixed  z-3 bg-opacity-75 blured" style="width: 100%;">
     <button class="btn btn-dark" style="margin: 5px; margin-left: 15px;" data-bs-toggle="offcanvas" data-bs-target="#ofcan">
         <i class="bi bi-list"></i>
     </button>
@@ -23,7 +24,7 @@
     </div>
 </nav>
 
-<div class="offcanvas offcanvas-start rounded-4 outline m-2" tabindex="-1" id="ofcan">
+<div class="offcanvas offcanvas-start rounded-4 border m-2 bg-body bg-opacity-50 blured" tabindex="-1" id="ofcan">
     <button class="btn-close end-0 position-relative top-0" style="margin-right: 0px; margin-left: 90%; margin-top: 2vh;" data-bs-dismiss="offcanvas"></button>
     <div class="offcanvas-body-1 p-2" style="scale: 120%; margin-left: 13%;">
         <div class="row" style="margin-left: auto;">
@@ -60,8 +61,9 @@
         <img src="https://www.apple.com/v/macbook-pro-13/o/images/overview/camera_hero_hardware__cfpmer0zbeeu_large.jpg"
         
         alt="" class="img-fluid position-relative translate-middle start-50 top-50 gt1" style="max-height: 60vh;">
-            <div class="col-4 translate-middle top-50 start-50 text-white text-center position-absolute z-4 display-6" style="margin-top: 300px;">
-                <b>See All beautyful things</b>
+            <div class="col-4 translate-middle top-50 start-50   text-center position-absolute z-4 display-6" style="margin-top: 300px;">
+                <div class="row">
+                <div class="col-12"><b class="text-white">See All beautyful things</b></div><div class="hx col-12"></div></div>
             </div>
         <div class="btn btn-primary position-absolute translate-middle top-100 start-50" style="margin-top: -80px;">Learn More</div>
 </div>
@@ -73,17 +75,17 @@
 
 
     
-    <div class="container-fluid bg-light p-5 g-4">
+    <div class="container-fluid  bg-body p-5 g-4 para-gradient">
     <div class="container g-4 p-4">
         <div class="row g-2">
         
         
         
-        <div class="col-lg-5 col-xs-12 text-primary card p-4 rounded-4 m-auto outline mb-4" style="min-height: 410px;">
+        <div class="col-lg-5 col-xs-12 text-primary card p-4 rounded-4 m-auto mb-4" style="min-height: 410px;">
             <h5 class="m-2 fs-2">Title of Card</h5>
             <hr class="gt1">    
             <div class="row">
-            <div class="card-text col-12 m-3 text-black display-6 fs-5">
+            <div class="card-text col-12 m-3 text-body fs-5">
                 
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce a laoreet nulla. Cras consectetur tincidunt massa eu imperdiet. Donec quis libero justo. Aliquam erat volutpat. Proin lobortis risus non magna molestie, at pretium neque aliquam. Aliquam fermentum tortor eget dolor ultrices pulvinar. Aenean lobortis lacus a lorem commodo maximus ut vel enim. 
@@ -106,53 +108,60 @@
             
 
 
-            <div class="col-lg-5 col-xs-12 text-primary card position-relative start-0 rounded-4 m-auto outline mb-4" style="min-height: 410px;">
+            <div class="col-lg-5 col-xs-12 text-primary card position-relative start-0 rounded-4 m-auto mb-4" style="min-height: 410px;">
                 <div class="row">
-                    <div class="card-text col-6 mt-2 ml-2 text-black display-6 fs-5 p-4" style="padding-left: 5%;">
+                    <div class="card-text col-6 mt-2 ml-2   display-6 fs-5 p-4" style="padding-left: 5%;">
                         <h5 class="fs-2 m-2 text-primary">Title of Card</h5>
                         <hr class="gt1">
             
-            <div class="p-1">
+            <div class="p-1 text-body">
                 Phasellus bibendum lectus mauris, eget commodo erat fringilla vitae. Suspendisse tempor, ante non condimentum placerat, tellus erat sollicitudin odio, quis dignissim purus odio et nunc. </div></div>
             <div class="col-6 m-0 p-0">
-                <img class="rounded-end-4 img-fluid position-relative" src="Img/cover.jpg" style="min-height: 410px; margin-right: -100px;" alt="">
+                <img class="rounded-end-4 img-fluid position-relative img-h" src="Img/cover.jpg" style="min-height: 410px; margin-right: -100px;" alt="">
         </div></div></div>
 
         
-        <div class="col-lg-5 col-xs-12 text-primary card p-4 position-relative start-0 rounded-4 m-auto outline mb-4" style="min-height: 410px;">
+
+        <div class="col-lg-5 col-xs-12 text-primary card p-4 position-relative start-0 rounded-4 m-auto mb-4 display-6 fs-5">
             <h5 class="m-2 fs-2">Title of Card</h5>
             <hr class="gt1">    
-            <div class="row">
-            <div class="card-text col-6 mt-2 ml-2 text-black display-6 fs-5" style="padding-left: 5%;">
+            <div class="row pt-5">
+            <div class="card-text col-6 mt-2 ml-2 text-body " style="padding-left: 5%;"> 
                 Phasellus bibendum lectus mauris, eget commodo erat fringilla vitae. Suspendisse tempor, ante non condimentum placerat, tellus erat sollicitudin odio, quis dignissim purus odio et nunc. Praesent scelerisque, justo ac tempor accumsan, purus ipsum faucibus erat, at egestas metus dui id elit. Nam et fringilla tellus, eget volutpat libero.</div>
             <div class="card-text col-6">
                 <img class="rounde img-fluid" src="Img/DSC00472.jpg" alt="">
         </div></div></div>
 
-        <div class="col-lg-5 col-xs-12 text-primary card p-4 position-relative start-0 rounded-4 m-auto outline mb-4 display-6 fs-5" style="min-height: 410px;">
+
+
+        <div class="col-lg-5 col-xs-12 text-primary card p-4 position-relative start-0 rounded-4 m-auto mb-4 display-6 fs-5">
             <h5 class="m-2 fs-2">Title of Card</h5>
             <hr class="gt1">    
-            <div class="row">
-            <div class="card-text col-6 mt-2 ml-2 text-black" style="padding-left: 5%;"> 
+            <div class="row pt-5">
+            <div class="card-text col-12 mt-2 ml-2 text-body" style="padding-left: 5%;"> 
                 Phasellus bibendum lectus mauris, eget commodo erat fringilla vitae. Suspendisse tempor, ante non condimentum placerat, tellus erat sollicitudin odio, quis dignissim purus odio et nunc. Praesent scelerisque, justo ac tempor accumsan, purus ipsum faucibus erat, at egestas metus dui id elit. Nam et fringilla tellus, eget volutpat libero.</div>
-            <div class="card-text col-6">
-                <img class="rounde img-fluid" src="Img/DSC00472.jpg" alt="">
-        </div></div></div>
+                <img class="rounded-4 img-fluid p-1 w-75 m-auto" src="Img/Palm-by-Jessica-F.jpg" alt="">
+            
+            </div></div>
 
 
     </div>
 </div>
 <div class="container p-4 "></div>
-<hr>
+
 </div>
 
 
-<div class="container-fluid text-white p-5 bg-light bg-gradient">
-    <div class="container outline rounde">
+
+
+
+
+<div class="container-fluid   p-5 bg-body">
+    <div class="container bg-body-secondary rounde bg-opacity-25">
     <div class="row">
     <div class="col-lg-6 col-xs-12 d-block p-4" style="margin: auto;">
         <h2 class="gt1 p-3">Outstanding</h2>
-        <div class="fs-5 p-4 text-dark ">
+        <div class="fs-5 p-4">
         In hac habitasse platea dictumst. Donec id tellus non lectus aliquam viverra ut non libero. Donec ut molestie nibh, nec posuere massa. Mauris a risus sapien. In hac habitasse platea dictumst. In ac commodo dolor. Aenean at ante ac mauris posuere convallis finibus dictum felis. Integer sit amet gravida nisi. Praesent ac massa ex. In porta nulla sit amet massa pharetra finibus. Phasellus bibendum lectus mauris, eget commodo erat fringilla vitae. Suspendisse tempor, ante non condimentum placerat, tellus erat sollicitudin odio, quis dignissim purus odio et nunc. Praesent scelerisque, justo ac tempor accumsan, purus ipsum faucibus erat, at egestas metus dui id elit. Nam et fringilla tellus, eget volutpat libero.
         <div class="col-12 fs-1 text-center p-2">
             <i class="bi bi-arrow-down-square p-3 text-danger"></i>
@@ -175,26 +184,26 @@
     <div class="container">
         <div class="row">
             <div class="col-12 text-center p-5">
-                <h2 class="text-white h1 gt2">Join our Satisfied user Base</h2></div>
+                <h2 class="  h1 gt2">Join our Satisfied user Base</h2></div>
             </div>
             <div class="row p-3">
                 <div class="col-2 d-xs-none"></div>
                 <div class="col-lg-2 col-xs-12 text-center"><img src="http://tricky-photoshop.com/wp-content/uploads/2017/08/final-1.png" alt="" class="rounde img-fluid">
                 <div class="row">
-                    <div class="col-12 bg-light rounde text-dark p-3 m-2"> <h4>Adam</h4>
+                    <div class="col-12  bg-body rounde   p-3 m-2"> <h4>Adam</h4>
                         <hr>
-                        Lubie chleb
+                        Lubie chleb Lubie chleb Lubie chleb Lubie chleb Lubie chleb Lubie chleb
                     </div></div></div>
                 
                 <div class="col-1 d-xs-none"></div>
                 <div class="col-lg-2 col-xs-12 text-center"><img src="http://tricky-photoshop.com/wp-content/uploads/2017/08/final-1.png" alt="" class="rounde img-fluid">
                     <div class="row">
-                        <div class="col-12 bg-light rounde text-dark p-3 m-2"> <h4>Adam</h4><hr>Lubie chleb</div>
+                        <div class="col-12  bg-body rounde   p-3 m-2"> <h4>Adam</h4><hr>Lubie chleb Lubie chleb Lubie chlebLubie chleb Lubie chleb Lubie chleb Lubie chleb</div>
                     </div></div>
                 <div class="col-1 d-xs-none"></div>
                 <div class="col-lg-2 col-xs-12 text-center"><img src="http://tricky-photoshop.com/wp-content/uploads/2017/08/final-1.png" alt="" class="rounde img-fluid">
                     <div class="row">
-                        <div class="col-12 bg-light rounde text-dark p-3 m-2"> <h4>Adam</h4><hr> Lubie chleb</div>
+                        <div class="col-12  bg-body rounde   p-3 m-2"> <h4>Adam</h4><hr> Lubie chleb Lubie chleb Lubie chlebLubie chleb Lubie chleb Lubie chleb Lubie chleb</div>
                     </div></div>
                 <div class="col-2 d-xs-none"></div>
             </div>
@@ -213,7 +222,7 @@
 
         </div>
         <div class="col-lg-7 col-xs-12">
-    <div class="container bg-light rounde p-1 outline">
+    <div class="container  bg-body rounde p-1 outline">
         
         <form method="post" id="abc" action="#abc" class="m-5">
             <h3 class="gt1 h1">Sign up</h3>
@@ -251,7 +260,7 @@
 
 
 
-    <div class="container-fluid bg-light">  <!--Gallery-->
+    <div class="container-fluid bg-body">  <!--Gallery-->
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center ">
@@ -259,10 +268,10 @@
     </div>
     </div>
     <div class="row p-4 g-3 m-auto">
-        <div class="col-lg-4 col-xs-12 vertical"><img class="rounde outline img-fluid h-100" src="Img/DSC00472.jpg" alt=""></div>
-        <div class="col-lg-8 col-xs-12 horizontal"> <img class="rounde outline img-fluid" src="Img/_DSC2846-10.jpeg" alt=""></div>
-        <div class="col-lg-8 col-xs-12"><img class="img-fluid outline rounde" src="Img/_DSC9339.jpg" alt=""></div>
-        <div class="col-lg-4 col-xs-12 vertical"><img class="rounde outline img-fluid h-100" src="Img/DSC00472.jpg" alt=""></div>
+        <div class="col-lg-4 col-xs-12 vertical"><img class="rounde  img-fluid h-100" src="Img/DSC00472.jpg" alt=""></div>
+        <div class="col-lg-8 col-xs-12 horizontal"> <img class="rounde  img-fluid" src="Img/_DSC2846-10.jpeg" alt=""></div>
+        <div class="col-lg-8 col-xs-12"><img class="img-fluid  rounde" src="Img/_DSC9339.jpg" alt=""></div>
+        <div class="col-lg-4 col-xs-12 vertical"><img class="rounde  img-fluid h-100" src="Img/DSC00472.jpg" alt=""></div>
     </div>
     </div></div>
 
@@ -278,7 +287,7 @@
 
         <!--Book Element-->
 
-        <div class="col-lg-4 col-xs-12 bg-light outline rounded-4 zoom-on-hover p-0">
+        <div class="col-lg-4 col-xs-12 bg-body border rounded-4 zoom-on-hover p-0">
             <div class="row"><div class="col-6">
             <img src="Img/DSC00472.jpg" class="img-fluid h-100 rounded-start-4">
         </div>
@@ -288,7 +297,7 @@
                 <input class="btn btn-outline-primary position-absolute end-0 bottom-0 m-4" type="button" value="Borrow">
             </div></div></div>
 
-            <div class="col-lg-4 col-xs-12 bg-light outline rounded-4 zoom-on-hover p-0">
+            <div class="col-lg-4 col-xs-12 bg-body border rounded-4 zoom-on-hover p-0">
                 <div class="row"><div class="col-6">
                 <img src="Img/DSC00472.jpg" class="img-fluid h-100 rounded-start-4">
             </div>
@@ -297,8 +306,8 @@
                     <h5 class="text-muted fs-5">Author</h5>
                     <input class="btn btn-outline-primary position-absolute end-0 bottom-0 m-4" type="button" value="Borrow">
                 </div></div></div>
-
-                <div class="col-lg-4 col-xs-12 bg-light outline rounded-4 zoom-on-hover p-0">
+                
+                <div class="col-lg-4 col-xs-12 bg-body border rounded-4 zoom-on-hover p-0">
                     <div class="row"><div class="col-6">
                     <img src="Img/DSC00472.jpg" class="img-fluid h-100 rounded-start-4">
                 </div>
@@ -324,7 +333,7 @@
             <a href="#" class="list-group-item list-group-item-action">A second link item</a>
             <a href="#" class="list-group-item list-group-item-action">A third link item</a>
             <a href="#" class="list-group-item list-group-item-action">A fourth link item</a>
-            <a class="list-group-item list-group-item-action disabled">A disabled link item</a>
+            <button onclick="mode()" class="list-group-item list-group-item-action">Change</button>
           </div>
     </div>
     <div class="col-lg-3 col-xs-12 p-3">Made By Wiktor Gil
@@ -340,5 +349,6 @@
     <div class="col-12" style="margin-top: 2vh;"><h5>Made using Bootstrap</h5></div>
 </div>
 </footer>
+
 </body>
 </html>

@@ -22,6 +22,7 @@ font-family: 'Yellowtail', cursive;
     scroll-behavior: smooth;
     font-family: Inter var,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
     transition-duration: 0.3s;
+    color-scheme: dark;
 }
 .h1{
     font-weight: 900;
@@ -51,6 +52,9 @@ div{
 }
 h5{
     font-weight: 800;
+    background-image: linear-gradient(to left top, #161616, #222224, #2e2f33, #3a3c43, #464a54, #4b515b, #4f5863, #545f6a, #535f69, #536068, #536066, #536065);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 .gb-grad{
     background-image: linear-gradient(to top, #bdd7ff, #b8d9ff, #b3dcff, #afdeff, #abe0ff);
@@ -108,3 +112,36 @@ h5{
     flex-grow: 1;
     margin-left: 8%;
 }
+.card{
+    border: none !important;
+    min-height: 489px !important;
+}
+@media screen and (max-width: 806px) {
+    .card {
+        min-height: 200px !important;
+    }
+    .img-h{
+        height: 100.1%;
+    }
+  }
+
+  @media screen and (max-width: 1406px) {
+    .card {
+        min-height: 160px !important;
+    }
+    .img-h{
+        height: 100.1%;
+    }
+  }
+  .para-gradient{
+    background-image: linear-gradient(to left top, #ffffff, #f7f7ff, #edefff, #e2e8ff, #d4e1ff, #cde0ff, #c5e0ff, #bddfff, #bee4ff, #bfe8ff, #c2ecff, #c6f0ff);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  @media screen and (max-height: 800px) {
+    .hx {
+        height: 160px !important;
+    }
+  }

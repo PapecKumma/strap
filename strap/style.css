@@ -133,6 +133,15 @@ h5{
         height: 100.1%;
     }
   }
+
+  @media screen and (max-width: 600px) {
+    .card {
+        min-height: 160px !important;
+    }
+    .img-h{
+        height: 100.1%;
+    }
+  }
   .para-gradient{
     background-image: linear-gradient(to left top, #ffffff, #f7f7ff, #edefff, #e2e8ff, #d4e1ff, #cde0ff, #c5e0ff, #bddfff, #bee4ff, #bfe8ff, #c2ecff, #c6f0ff);
     background-attachment: fixed;

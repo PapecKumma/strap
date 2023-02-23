@@ -1,12 +1,111 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pl">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bootstrap Elements</title>
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,800;1,300&display=swap" rel="stylesheet"> 
+    <link rel="shortcut icon" href="Img/Desert-by-Mark-Eder.jpg" type="image/x-icon">
 </head>
 <body>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+
+    <nav class="navbar bg-body position-fixed  z-3 bg-opacity-75 blured" style="width: 100%;">
+        <button class="btn btn-dark" style="margin: 5px; margin-left: 15px;" data-bs-toggle="offcanvas" data-bs-target="#ofcan">
+            <i class="bi bi-list"></i>
+        </button>
+        <div class="translate-middle position-absolute start-50 top-50" style="margin-top: 3px;"><h2 class="header-3 "><a href="index.html" style="text-decoration: none; color: inherit;"> <i class="bi bi-apple"></i>SiteName</a></h2>
+        </div>
+    </nav>
     
+    <div class="offcanvas offcanvas-start rounded-4 border m-2 bg-body bg-opacity-50 blured" tabindex="-1" id="ofcan">
+        <div class="offcanvas-body-1 p-2" style="scale: 120%; margin-left: 13%;">
+            <div class="row" style="margin-left: auto;">
+                <div class="col-12 rounded-3 p-2">
+                    <h5 class="p-2 gt1" style="margin-top: 25%;">Title</h5>
+                </div>
+                <div class="row gap-1" style="margin-top: 25%; max-width: 90%;">
+                    <a href="Page2.html" class="col-6 pad1 rounded-3 sidebar-buttons ratio-1x1 ratio " style="width: 49%; padding-bottom: 8%; background-size: cover;"><b class="dropdown-header text-center tb" style="margin-top: 90%; scale: 150%;">Store</b></a>
+                
+                    <a href="Page2.html" class="col-6 pad2 rounded-3 sidebar-buttons ratio-1x1 ratio " style="width: 49%; padding-bottom: 8%; background-size: cover;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Login</b></a>
+                
+                    <a href="Page2.html" class="col-6 pad3 rounded-3 sidebar-buttons ratio-1x1 ratio " style="max-width: 49%; padding-bottom: 8%; background-size: cover;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+                
+                    <a href="Page2.html" class="col-6 pad4 rounded-3 sidebar-buttons ratio-1x1 ratio " style="max-width: 49%; padding-bottom: 8%; background-size: cover;"><b class="dropdown-header text-center" style="margin-top: 90%; scale: 150%;">Link to page 2</b></a>
+                    
+                    <a href="Page2.html" class="col-12 pad5 rounded-3 sidebar-buttons ratio-16x9 ratio" style="padding-bottom: 5%; background-size: cover;">
+                    <b class="dropdown-header text-center" style="margin-top: 50%; scale: 150%;">Link to page 2</b></a>
+                
+                
+                
+                
+                </div>   
+            </div>
+        </div>
+    </div>
+    
+<!----------------------------------------------------------------->
+<div class="container" style="height: 100px;"></div>
+<div class="container">
+
+    <div class="row">
+        <div class="col-5 ratio-1x1 bg-secondary bg-opacity-25 rounded-4" style="height: 550px; width: 550px; background-image: url(Img/appl.jpg);"></div>
+        <div class="col-7 p-4"><h2 class="modal-header display-1">Product Name</h2> <br>
+        <a href="#" class="text-muted">Computer/Laptops/Not Computerss</a> <br><br>
+        <!--Specification-->
+        <div class="text-muted">
+            <h4 class="display-5 text-primary">Specification</h4>
+            <table class="m-4 list-group rounded-4">
+                <tr class="list-group-item w-50 rounded-top-4">
+                    <td class="text-primary">Processor</td>
+                    <td>Intel Core i8-17432KG</td>
+                </tr>
+                <tr class="list-group-item w-50">
+                    <td class="text-primary">Processor</td>
+                    <td>Intel Core i8-17432KG</td>
+                </tr>
+                <tr class="list-group-item w-50">
+                    <td class="text-primary">Processor</td>
+                    <td>Intel Core i8-17432KG</td>
+                </tr>
+
+                <tr class="list-group-item w-50">
+                    <td class="text-primary">Processor</td>
+                    <td>Intel Core i8-17432KG</td>
+                </tr>
+
+                <tr class="list-group-item w-50 rounded-bottom-4">
+                    <td class="text-primary">Processor</td>
+                    <td>Intel Core i8-17432KG</td>
+                </tr>
+            </table>
+
+        </div>
+        <div>
+
+            <div class="row">
+                <div class="col-6 display-2 text-danger p-5" style="margin-top: 1.5%;">2137.68zł</div>
+                <div class="col-6 p-5 display-1">
+                    <button class="btn btn-primary rounded-4 top-50 start-50">
+                    <i class="bi bi-bag" style="font-size: 200%;"></i><b class="fs-4"> Add to Basket</b>
+                </button></div>
+            </div>
+
+        </div>
+
+        </div>
+    </div>
+
+</div>
+
+
 </body>
 </html>

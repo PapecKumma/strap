@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Great+Vibes&family=Righteous&family=Yellowtail&display=swap');
+@import "scss/custom.scss";
+@import ":root";
+
 /*
 font-family: 'Courgette', cursive;
 font-family: 'Great Vibes', cursive;
 font-family: 'Righteous', cursive;
 font-family: 'Yellowtail', cursive;
 */
+
 .gt1{
     background: -webkit-linear-gradient(45deg, #0d6efd, #4f91f5);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .gt2{
-    background: linear-gradient(135deg, rgb(206, 159, 252) 10%, rgb(115, 103, 240) 100%);    -webkit-background-clip: text;
+    background: linear-gradient(135deg, rgb(159, 188, 252) 10%, rgb(103, 165, 240) 100%);    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 .rounded-card{
@@ -65,9 +69,6 @@ h5{
 .outline{
     border: 1px rgb(191, 191, 191) solid;
 }
-.purple-grad{
-    background: linear-gradient(76.8deg, rgb(121, 45, 129) 3.6%, rgb(36, 31, 98) 90.4%);
-}
 .spacer{
     height: 2vh;
 }
@@ -118,12 +119,9 @@ h5{
     border: none !important;
     min-height: 489px !important;
 }
-@media screen and (max-width: 806px) {
-    .card {
-        min-height: 200px !important;
-    }
+@media screen and (min-width: 1422px) {
     .img-h{
-        height: 100.1%;
+        height: 94.8% !important;
     }
   }
 
@@ -164,3 +162,4 @@ h5{
   .hpx{
     max-height: 720px;
   }
+  
